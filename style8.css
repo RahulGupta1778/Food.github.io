@@ -1,0 +1,649 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all.50s ease;
+}
+
+.container{
+    height: 48rem;
+    width: 100%;
+     background: linear-gradient( 110deg, #fdde01 60%,#e7e5a9 60%);
+     padding: 2.5rem;
+}
+
+.dont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon i{
+    font-size: 4rem;
+    color: black;
+}
+
+.icon h1{
+    font-family: "Imbue", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+}
+ 
+.dont1 h1{
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+
+.dont1 h2{
+    font-family: "Montserrat", serif;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+}
+
+.dont1 i{
+    font-size: 2.5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+}
+
+.nav li a{
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10rem;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.let i{
+    font-size: 3rem;
+    color: #65972d;
+    margin-right: 2rem;
+}
+
+.let{
+    text-align: center;
+}
+
+.let h1{
+    font-family: "Gabriela", serif;
+    font-size: 2.2rem;
+    margin-left: -6rem;
+    margin-top: 2rem;
+}
+
+.let h2{
+    font-family: "Fredericka the Great", serif;
+    font-size: 5rem;
+   font-weight: lighter;
+}
+
+.let h3{
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 0.6rem;
+    text-decoration: underline #ccb301;
+    text-underline-offset: 2rem;
+}
+
+.let h4{
+    font-family: "Fredericka the Great", serif;
+    font-size: 1.1rem;
+   font-weight: lighter;
+   margin-top: 3.7rem;
+   margin-left: -8rem;
+}
+
+.let h5{
+    font-family: "Fredericka the Great", serif;
+    font-size: 3rem;
+   font-weight: lighter;
+   margin-top: -3.2rem;
+   margin-left: 9rem;
+  
+}
+
+.let button{
+    font-family: "Montserrat", serif;
+    height: 2.7rem;
+    width: 11rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    background-color: #fdde01;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+}
+
+.let button:hover{
+    background-color: #454b57;
+    color: #ffffff;
+    border: 0rem solid;
+    cursor: progress;
+}
+
+.let1{
+    display: flex;
+}  
+
+.let1 img{
+    height: 32rem;
+    width: 33rem;
+    border-radius: 20rem;
+    margin-right: 10rem;
+    box-shadow: 0 0 1rem 0.4rem rgba(24, 25, 25, 0.5); 
+}
+
+.let1 img:hover{
+ content: url(about-2.jpg);
+}
+/*----PANEL 1 START----*/
+
+.panel1{
+    height: 47rem;
+    background-color: beige;
+
+}
+
+.enjoy h1{
+    font-family: "Fredericka the Great", serif;
+    font-size: 3rem;
+   font-weight: lighter;
+   text-align: center;
+   padding-top: 4rem;
+}
+
+.enjoy p{
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+ 
+.enjoy1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.enjoy2 img{
+    height: 20rem;
+    width: 21rem;
+    border-radius: 10rem;
+    box-shadow: 0 0 1rem 0.4rem rgba(24, 25, 25, 0.5);
+}
+
+.enjoy2 h1{
+    font-family: "Montserrat", serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.enjoy2 p{
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+.enjoy2 button{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    height: 2.2rem;
+    width: 8rem;
+    background-color: #fdde01;
+    text-align: center;
+}
+
+.enjoy2 button:hover{
+    background-color: #bec0c7;
+    color: #ffffff;
+    border: 0rem solid;
+    cursor: progress;
+}
+
+/*----PANEL 2 START----*/
+
+.panel2{
+    height: 47rem;
+    background-color: #ffffff;
+}
+
+.events h1{
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.events h2{
+    font-family: "Fredericka the Great", serif;
+    font-size: 2.5rem;
+   font-weight: lighter;
+   text-align: center;
+}
+
+.events p{
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+.events1{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(about-2.jpg),url(pexels-narda-yescas-1566837.jpg);
+    background-repeat: repeat,no-repeat;
+    background-size: 30rem;
+    height: 20rem;
+margin-top: 5rem;
+text-align: center;
+} 
+
+.events1 img{
+    height: 25rem;
+    width: 40rem;
+    margin-top: -2.5rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.7rem 0.2rem rgba(24, 25, 25, 0.5);
+    
+}
+
+.events1 img:hover{
+  content: url(food2.jpg);
+}
+
+.dot{
+    display: flex;
+    justify-content: center;
+}
+
+.the{
+  color: #fdde01;
+ font-size: 6rem;
+}  
+
+.the1{
+    color: #d5d6d5;
+   font-size: 6rem;
+  } 
+
+  
+.the2{
+    color: #d5d6d5;
+   font-size: 6rem;
+  } 
+
+  /*----PANEL 3 START----*/
+
+  .panel3{
+    height: 28rem;
+  }
+
+  .champ{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .most1{
+    background-image: url(b2.jpg);
+    background-size: cover;
+    height: 25rem;
+    width: 35rem;
+  }
+
+  .most1 h1{
+    font-family: "Montserrat", serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+   margin-left: 2rem;
+    margin-top: 4rem;
+  }
+
+  .most1 h2{
+    font-family: "Montserrat", serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+  }
+
+  .most2{
+    background-image: url(b3.jpg);
+    background-size: 36rem;
+    height: 11.5rem;
+    width: 36rem;
+  }
+
+  .most2 h1{
+    font-family: "Montserrat", serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #ffffff;
+   margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .most2 h2{
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 2rem;
+  
+  }
+
+  .most3{
+    background-image: url(b4.jpg);
+    background-size: cover;
+    height: 11.5rem;
+    width: 36rem;
+    margin-top: 7.6rem;
+  }
+
+  .most3 h3{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #ffffff;
+   margin-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .most3 h4{
+    font-family: "Montserrat", serif;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 2rem;
+  
+  }
+
+       /*----PANEL 4 START----*/
+    
+       .panel5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bdaffa;
+    height: 20rem;
+    padding: 0rem 8rem;
+}
+
+.panel4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 8rem;
+    
+}
+
+.panel4 h1{
+    font-family: "Fredericka the Great", serif;
+    font-size: 2.8rem;
+   font-weight: lighter;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.nasi img{
+    height: 15rem;
+    border-radius: 10rem;
+    box-shadow: 0rem 0rem 0.7rem 0.2rem rgba(24, 25, 25, 0.5);
+}
+
+.nasi1 h1{
+    font-family: 'Poppins boild', sans-serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin-left: -5rem;
+}
+
+.nasi1 h6{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+    margin-left: -5rem;
+}
+
+.nasi1 p{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: -5rem;
+}
+       
+    /*----PANEL 6 START----*/
+
+    .panel6{
+        height: 30rem;
+        background-image: url(tb-3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .panel6 h1{
+        font-family: "Montserrat", serif;
+        font-size: 1.2rem;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 2rem;
+        
+    }
+
+    .panel6 h2{
+        font-family: "Fredericka the Great", serif;
+        font-size: 2.5rem;
+       font-weight: lighter;
+       text-align: center;
+       color: #ffffff;
+    }
+
+    .book{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+    }
+
+    .book1 input{
+        font-family: "Montserrat", serif;
+        height: 3rem;
+        width: 18rem;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        border-radius: 0.2rem;
+       border: 0.1rem solid #d5d6d5;
+    }
+
+    .book2 input{
+        font-family: "Montserrat", serif;
+        height: 3rem;
+        width: 18rem;
+        padding-left: 1rem;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        border-radius: 0.2rem;
+       border: 0.1rem solid #d5d6d5;
+    }
+ 
+    .book2 button{
+        font-family: "Montserrat", serif;
+        height: 3rem;
+        width: 18rem;
+        background-color: #ffe001;
+        color: #000000;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-radius: 0.2rem;
+       border: 0.1rem solid #ffe001;
+    }
+
+      /*----PANEL 7 START----*/
+
+      .panel7{
+       height: 120rem;
+       background-color: #000000;
+       text-align: center;
+      }
+
+      .story{
+        text-align: center;
+      }
+
+      .story h1{
+        font-family: "Fredericka the Great", serif;
+        font-size: 3rem;
+       font-weight: lighter;
+       color: #ffffff;
+       padding-top: 2rem;
+      }
+
+      .story h2{
+        font-family: "Fredericka the Great", serif;
+        font-size: 2rem;
+       font-weight: lighter;
+       color: #ffffff;
+       margin-top: 3rem;
+      }
+
+      .story p{
+        font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+      }
+
+      .story video{
+        height: 40rem;
+        width: 55rem;
+      }
+
+      .story source{
+        height: 40rem;
+        width: 55rem;
+      }
+
+      .panel7 p{
+        font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+      }
+
+      .panel7 img{
+        height: 35rem;
+        margin-top: 3rem;
+      }
+
+      .panel7 h3{
+        font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    font-weight: lighter;
+    
+      }
+
+       /*----footer  START----*/
+
+       .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 30rem;
+        background-image: url(tb-3.jpg);
+        background-size: cover;
+        padding-top: 6rem;
+       }
+
+       .road h1{
+        font-family: 'Poppins', sans-serif;
+        color: #fdde01;
+        font-size: 1.4rem;
+        margin-left: 4rem;
+       }
+
+       .road p{
+            font-family: 'Poppins', sans-serif;
+          color: #ffffff;
+           font-size: 1.1rem;
+         margin-top: 3rem;
+         margin-left: 4rem;
+       }
+
+       .road i{
+        color: #ffffff;
+        font-size: 2.2rem;
+       padding: 0rem 0.7rem;
+       margin: 2rem 0rem 0rem 3rem;
+       transition: 1s ease;
+       }
+
+       .road i:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+       }
+
+       .road1 h1{
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+         font-size: 0.9rem;
+         font-weight: lighter;
+         margin-top: 7rem;
+         margin-right: 4rem;
+       }
+
+       .road1 h2{
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+         font-size: 0.9rem;
+        font-weight: lighter;
+         margin-top: 1.5rem;
+       }
+
+       .road1 i{
+        color: #ffe001;
+        font-size: 1.5rem;
+        margin-right: 1.3rem;
+       }
+
+       .footer1 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        font-size: 1rem;
+       height: 2rem;
+       width: 100%;
+        background-color: #989595;
+       }
